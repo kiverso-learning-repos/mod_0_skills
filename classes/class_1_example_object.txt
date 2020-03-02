@@ -1,0 +1,14 @@
+instance of class: table: table_12
+
+capacity (integer): 4
+is_reserved (boolean) true
+is_dirty (boolean): true
+number_of_chairs (integer): 3
+reservation_name (string): "Kyle Iverson"
+
+methods for table_12
+
+table_12.reserve('Kyle Iverson'): returns true for is_reserved, sets reservation_name to "Kyle Iverson"
+table_12.cancel_reservation: returns false for is_reserved
+table_12.add_chair: returns 4 for number_of_chairs
+table_12.clean: returns false for is_dirty
