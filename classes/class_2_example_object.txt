@@ -1,0 +1,13 @@
+Instance of class: food: pizza
+
+attributes of pizza:
+price = 10.00
+is_served = false
+item_name = "Pizza"
+cost = 4.50
+
+methods:
+pizza.change_price(10.50): changes price to 10.50, returns 10.50.
+pizza.serve: serves the pizza, changes is_served to true, returns true.
+pizza.change_name("Signature Pizza"): item_name to "Signature Pizza" and returns "Signature Pizza".
+pizza.get_profit: subtracts cost from price, does 10.50 - 4.50 and returns 6.00.
