@@ -1,0 +1,16 @@
+Class for a restaurant: food
+
+Attributes of food class:
+
+price (float)
+is_served (boolean)
+item_name (string)
+cost (float)
+
+
+Methods for class: food
+
+change_price(new_price): updates price, returns new_price.
+serve: serves the food, changes is_served to true, returns true for is_served.
+change_name(new_name): changes the name to new_name, returns new_name.
+get_profit: subtracts cost from price and returns the result.
