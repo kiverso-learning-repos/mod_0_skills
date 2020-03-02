@@ -1,0 +1,17 @@
+food = "Pizza"
+
+is_delicious = true
+
+food = "Burrito"
+
+num2 = 6.00
+num7 =  12.00
+
+quotient = num7 / num2
+
+songs = [ "Like Antennas to Heaven...", "Storm", "Static", "Sleep"]
+
+songs.shift
+p songs
+
+p "There are #{food.length} characters in the string: food"
