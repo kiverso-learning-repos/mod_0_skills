@@ -1,0 +1,16 @@
+Class for a restaurant: Table
+
+Attributes of Table class:
+
+capacity (integer)
+is_reserved (boolean)
+is_dirty (boolean)
+number_of_chairs (integer)
+reservation_name (string)
+
+Methods for table class:
+
+reserve (changes 'is_reserved' to true, adds name to 'reservation_name')
+cancel_reservation (changes 'is_reserved' to false, removes name from 'reservation_name')
+add_chair (adds one chair to 'number_of_chairs')
+clean (cleans table, changes 'is_dirty' to false)
